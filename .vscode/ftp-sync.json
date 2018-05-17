@@ -1,0 +1,21 @@
+{
+    "remotePath": "/var/www/nas01.8tc.ca/",
+    "host": "91.134.231.191",
+    "username": "root",
+    "password": "chun234234",
+    "port": 20322,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": true,
+    "privateKeyPath": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}
