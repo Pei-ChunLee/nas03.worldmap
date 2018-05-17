@@ -69,24 +69,27 @@
 </head>
 
 <body>
-	<nav class="nav navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Brand</a>
-            </div>
-            <div>
-                <ul class="nav navbar-nav">
-                    <li><a data-toggle="tab" href="#home">Home</a></li>
-                    <li><a data-toggle="tab" href="#menu1">Page 1</a></li>
-                    <li><a data-toggle="tab" href="#menu2">Page 2</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
-                    <li><a data-toggle="tab" href="#">Log out</a></li>
-                    <li><a data-toggle="tab" href="#"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
-                </ul>
-            </div>
-        </div>
+	<nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar w/ text</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarText">
+    		<ul class="navbar-nav mr-auto">
+      			<li class="nav-item active">
+        			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Features</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Pricing</a>
+				</li>
+			</ul>
+			<span class="navbar-text">
+				Navbar text with an inline element
+			</span>
+		</div>
     </nav>  
 	<div class="map-preview">
 		<div class="container">
